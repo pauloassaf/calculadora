@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Calc from "./components/Calc.jsx";
 import './App.css';
 
