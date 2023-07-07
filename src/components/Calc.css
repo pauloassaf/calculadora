@@ -1,0 +1,33 @@
+.wrapper {
+    background-color: black;
+    border-radius: 1em;
+    padding: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em    
+}
+
+
+.result {
+    grid-column: 1/5;
+    color: white;
+    text-align: end;
+    }
+
+.bt {
+    width: 4em;
+    height: 4em;
+    border-radius: 1.5em;
+    font-size: 1.2em;
+}
+
+.big {
+    grid-column: 3/5;
+    width: 8.5em
+  }
+
+
+button:hover{
+    cursor:pointer
+}
+
